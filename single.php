@@ -17,6 +17,9 @@ get_header();
 		while ( have_posts() ) :
 			the_post();
 
+			//image
+			//the_post_thumbnail();
+
 			get_template_part( 'template-parts/content', get_post_type() );
 
 			the_post_navigation();

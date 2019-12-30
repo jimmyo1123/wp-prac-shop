@@ -1,0 +1,172 @@
+.container {
+	margin: 0 auto;
+}
+
+
+/**
+ * Product content
+ */
+
+.large-container {
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+/* Silder */
+
+.featured-slider {
+	position: relative;
+	z-index: 1;
+}
+
+.featured-slider ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	list-style-type: none; 
+}
+
+.featured-slider li {
+	height: 100vh;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	position: relative;
+}
+
+.feature-img {
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-position: center center;
+	background-attachment: initial;
+	background-repeat: no-repeat;
+	cursor: zoom-in;
+}
+
+.feature-img-zoom-in {
+	width: 100%;
+	height: 100%;
+	background-size: 200%;
+	background-position: center center;
+	background-attachment: initial;
+	background-repeat: no-repeat;
+	cursor: zoom-out;
+}
+
+
+/* Summary */
+
+.summary {
+	width: 260px;
+	float: none;
+	position: fixed;
+	top: 0;
+	margin-top: 228px;
+	z-index: 2;
+}
+
+.product {
+	position: static;
+}
+
+.product_title {
+	font-size: 16px;
+}
+
+.product_description {
+	font-size: 11px;
+}
+
+.variations-form {
+	margin-top: 10px;
+}
+
+.variations {
+	border: 0;
+	width: 100%;
+	margin-bottom: 30px;
+}
+
+.value {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin-left: -6px;
+	margin-right: -6px;
+}
+
+.radio-button-section {
+	display: inline-block;
+	position: relative;
+	margin: 0 6px 6px;
+	min-width: 30px;
+	text-align: center;
+	letter-spacing: 0;
+	transition: .2s;
+}
+
+td.value label {
+	position: relative;
+	display: block;
+	font-size: 12px;
+	font-weight: 400;
+}
+
+.radio {
+	border: 1px transparent solid;
+	text-transform: uppercase;
+	transition: .15s linear;
+	padding: 5px;
+	display: block;	
+}
+
+span.radio:hover {
+	cursor: pointer;
+	border: 1px black solid;
+}
+
+input[type="radio"] {
+	display: none;
+}
+
+input[type="radio"]:checked + label span.radio{
+	border: 1px black solid;
+	padding: 5px;
+}
+
+.add-to-bag-button {
+	width: 100%;
+}
+
+/* Slider Navigation */
+
+.slider-navigation {
+	position: fixed;
+	top: 50%;
+	width: 30px;
+	z-index: 100;
+	transform: translateY(-50%);
+
+	/*Need to change when male it responsive*/
+	right: 22px;
+}
+
+.slider-numbers {
+	font-size: 50px;
+	line-height: 1.1;
+	text-align: center;
+	margin: 20px 0 40px;
+	position: relative;
+
+}
+
+.slider-numbers p {
+	margin: 0;
+}
+
+.dash {
+	font-size: 30px;
+	margin-right: 5px;
+	margin-top: 2px;
+}
