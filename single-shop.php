@@ -23,13 +23,13 @@
 						</li>
 						<li class="slide-2">
 							<?php
-								$feature_img_url = get_the_post_thumbnail_url(get_the_ID(), 'full');
+								$feature_img_url = get_field('image1');
 							?>
 							<div class="feature-img" id="slide-feature-img" style="background-image: url('<?php echo $feature_img_url; ?>')"></div>
 						</li>
 						<li class="slide-3">
 							<?php
-								$feature_img_url = get_the_post_thumbnail_url(get_the_ID(), 'full');
+								$feature_img_url = get_field('image2');
 							?>
 							<div class="feature-img" id="slide-feature-img" style="background-image: url('<?php echo $feature_img_url; ?>')"></div>
 						</li>
